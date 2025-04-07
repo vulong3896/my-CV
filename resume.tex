@@ -1,0 +1,275 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    \textbf{\Huge \scshape Long Vu Van} \\ \vspace{1pt}
+    \small +84 328 828 140 $|$ \href{mailto:vulong3896@gmail.com}{\underline{vulong3896@gmail.com}} $|$ 
+     \faLinkedinSquare \hspace{.5pt} \href{https://linkedin.com/in/longvu3896}{\underline{Linkedin}} $|$
+   \faMapMarker \hspace{.5pt} \href{https://maps.app.goo.gl/exqVfTcXDV53vE4dA}{Ha Noi, Viet Nam}
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+	\resumeSubheading
+      {University of Engineering and Technology - Vietnam National University}{Hanoi, Vietnam}
+      {Master degree in Computer science - working on master thesis}{Apr. 2023 -- 2025}
+    \resumeSubheading
+      {Hanoi University of Science and Technology}{Hanoi, Vietnam}
+      {Engineering degree in Information and Technology - \textbf{Talent program}}{Jun. 2014 -- May 2019}
+  \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+      
+% -----------Multiple Positions Heading-----------
+%    \resumeSubSubheading
+%     {Software Engineer I}{Oct 2014 - Sep 2016}
+%     \resumeItemListStart
+%        \resumeItem{Apache Beam}
+%          {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines}
+%     \resumeItemListEnd
+%    \resumeSubHeadingListEnd
+%-------------------------------------------
+
+    \resumeSubheading
+      {ML Product Manager}{Feb. 2023 -- Present}
+      {CMC ATI - an AI applied technology institute}{Hanoi,  Vietnam}
+      \resumeItemListStart
+	\resumeItem{\textbf{Roadmap alignment}: develop year/quarter/month plan that aligned with company mission and product strategy; assign tasks to members based on product/project requirement and review the delivered result via Jira/Gitlab MR and verbal reports  }
+	\resumeItem{\textbf{Task delegation \& Tracking}: Assigned tasks to team members using SMART goals (Specific, Measurable, Achievable, Relevant, Time-bound). Matched responsibilities to individual strengths and project requirements.  }
+	\resumeItem{\textbf{Performance review} Monitored deliverables via Jira/GitLab MRs (code quality, timeline adherence) and verbal syncs (to solve blockers, collaboration issues). Conducted retrospectives to refine processes and address gaps in execution. }
+       \resumeItem{\textbf{Research strategy}: do market research from research and advisory firm like Gartner and also business requirements from both internal and external to bring out the detailed machine learning research plan }
+        \resumeItem{\textbf{DevOps \& Infrastructure:} built an on-premise K8s cluster for deploying AI models and ML software products. Implemented the following technologies and workflows on the cluster: CI/CD pipeline, secret management system, database operator, proxy server for routing request, service monitoring}
+        \resumeItem{\textbf{MLOps:} designed and built an MLOps system level 3 including model registry, data drift detection, automated training, data version control (DVC) and CI/CD model pipeline}
+	\resumeItem{\textbf{Customer centric:} Worked closely with customer to bring business ideas into machine learning models and software features and do project management to deliver the product to them. Consulted the customer to fulfill the gap between business expectation/requirement with the AI technology}
+	\resumeItem{\textbf{Human resource management:} provide clear career path for each position in the team such as techstacks/softskills they need to learn. Led end-to-end recruitment for technical roles: screened resumes, conducted technical interviews, and evaluated cultural fit. Focused on scalable hiring—balancing immediate project needs with long-term team growth.}
+    \resumeItemListEnd
+
+\resumeSubheading
+   {Freelancer MLOPs Engineer}  {Jan. 2022 - Aug. 2023} % Date(s)
+    {Alethea - an NFT startup} % Organization
+    {United States} % Location
+   
+  \resumeItemListStart
+        \resumeItem { Deployed a voice service with these components: text to speech/speech to text service, Redis memcache (self-hosted), Triton inference server on AWS EKS, AWS ECR and a VPC peering to synchronize the result to many other VPCs in the fatest way.}
+        \resumeItem {Deployed an automated pipeline for voice training and model CI/CD using Kubeflow, K8s, AWS EKS, and Triton inference server which reduces the time to deploy a new voice by double and also reduces the cloud cost.}
+        \resumeItem {Wrote data pipelines to process text to speech data using NeMo - a tool of NVIDIA to process speech data, this pipeline is hosted in Kubeflow.}
+     \resumeItemListEnd
+%---------------------------------------------------------
+  \resumeSubheading
+    {Solution Architect}   {Apr. 2021 - Dec. 2022} 
+    {akaBot FPT Software - an RPA startup} % Organization
+    {Ha Noi, Viet Nam} % Location
+  
+	\resumeItemListStart
+	        \resumeItem {Deployed an AWS EKS cluster for serving models using ModelMesh Serving framework which is more flexible, easy to horizontally scale }
+	        \resumeItem {Designed a distributed task system which is asynchronous, elastic and scalable by combining Celery, a message queue to send and receive result using RabbitMQ, a task dispatcher using FastAPI, and a data storage system using AWS S3. Deployed it to cloud to serve customer on AWS EKS.} 
+	        % \item {Developed a table extraction service which extracts table-structured information form various document type by using object detection, optical character recognition, and fuzzy logic techniques. Deployed it to cloud to serve customer using AWS EKS}
+	        \resumeItem {Developed an information extraction service that's being used on Europe financial reports. Deployed it to cloud to serve customer on AWS EKS.}
+	        % \item {Researched machine learning, feature engineering solution for challenging tasks in automation field by applying various technical solutions such as artifical inteligence, software engineering, and creative algorithms.}
+	        \resumeItem {Optimized the AI models by using model pruning, model quantization, TensorRT library, ONNX format and Triton model serving.}
+	        \resumeItem {Implemented a Robotic Process Automation selector optimization algorithm which minimizes selector nodes and attributes by using tree traversal algorithm and heuristic algorithm.}
+	        \resumeItem {Developed a computer vision set of activity which automates human task by analyzing computer screen information using object detection and optical character recognition.}
+       \resumeItemListEnd
+
+%---------------------------------------------------------
+%---------------------------------------------------------
+  \resumeSubheading
+    {AI Engineer} {May. 2020 - Apr. 2021} % Date(s)
+    {Asilla Vietnam - an AI startup specializing in image and video analysis} % Organization
+    {Ha Noi, Viet Nam} % Location
+    
+	\resumeItemListStart
+          \resumeItem {Built and deployed overall video streaming and broadcasting system which reads camera input stream, then process it by Computer Vision plugin and then broadcast the output stream to many registered devices based on a media streaming server named Kurento and Spring Boot framework.}
+        \resumeItem {Implemented a human counting program which reads the camera's streams and do many actions like human counting, trespassing detection based on object detection. The final test achieved over 90 percent of accuracy on the real scenarios.}
+        \resumeItem {Implemented an age gender recognition program which achieved 96 percent of gender accuracy and 2 Mean Average Error on age recognition, overcome the AWS's age recognition service which achieved 4 MAE on a same test.}
+       \resumeItemListEnd
+
+%---------------------------------------------------------
+  \resumeSubheading
+    {AI Engineer}  {Feb. 2019 - May. 2020} % Date(s)
+    {CMC CIST - an AI research institution} % Organization
+    {Ha Noi, Viet Nam} % Location
+   
+    \resumeItemListStart
+        \resumeItem {Implemented a smart transportation supervision system including vehicle detection, license plate detection, license plate recognition, and violation detection.}
+        \resumeItem {Researched human facial recognition on the Vietnamese facial dataset, the final result achieved 99.8 percent of accuracy on 1000-samples dataset which is the result of many improvement techniques like data augmentation, model structure modifications, and data engineering.}
+     \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{Smartdoc - an IDP application} $|$ \emph{Python, Django, Celery, Angular, PostgreSQL}}{Feb 2023 -- Present}
+          \resumeItemListStart
+            \resumeItem{Designed and developed a full-stack web application using with Django with Angular as the frontend}
+            \resumeItem{Used by thousands daily, the product has processed millions of documents for Vietnamese local governments in many digitalization projects}
+            \resumeItem{Used Celery, Redis and RabbitMQ for asynchronous tasks; Used Flower for task monitoring}
+	 \resumeItem{Used Kubeflow to automate model training and model CI/CD pipeline}
+	\resumeItem{Used OCR, document classification, document instance recognition, information extraction, LLM in the AI pipeline}
+          \resumeItemListEnd
+%      \resumeProjectHeading
+%          {\textbf{Simple Paintball} $|$ \emph{Spigot API, Java, Maven, TravisCI, Git}}{May 2018 -- May 2020}
+%          \resumeItemListStart
+%            \resumeItem{Developed a Minecraft server plugin to entertain kids during free time for a previous job}
+%            \resumeItem{Published plugin to websites gaining 2K+ downloads and an average 4.5/5-star review}
+%            \resumeItem{Implemented continuous delivery using TravisCI to build the plugin upon new a release}
+%            \resumeItem{Collaborated with Minecraft server administrators to suggest features and get feedback about the plugin}
+%          \resumeItemListEnd
+    \resumeSubHeadingListEnd
+
+
+
+%
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages:}{ Python, JavaScript, TypeScript, SQL} \\ \vspace{3pt}
+
+        \textbf{Technologies:}{ Flask, FastAPI, Django, Celery, React.js, AngularJS, Git, Kafka, RabbitMQ, Redis, etcd, OpenCV, PyTorch, Infisical} \\ \vspace{3pt}
+
+        \textbf{DevOps:}{ Docker, AWS, Kubernetes, Ansible, Kubespray, DVC} \\ \vspace{3pt}
+
+        \textbf{MLOps:}{ MLflow, Kubeflow, Triton, Model mesh serving, model registry, feature store} \\  \vspace{3pt}
+
+        \textbf{Database:}{  MySQL, PostgresQL, MongoDB, Elasticsearch, Milvus, Neo4J} \\ \vspace{3pt}
+
+        \textbf{Methodologies:}{ Agile, Scrum, OOP, Functional Programming, DevOps, CI/CD, TDD, SOLID} \\ \vspace{3pt}
+
+	\textbf{Others: }{Jaeger request tracing, Grafana, Prometheus} \\ \vspace{3pt}
+    }}
+ \end{itemize}
+
+\section{Certificates}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Language:}{ TOEIC 905 (2022), VSTEP 7.5 (2023)} \\ \vspace{3pt}
+
+        \textbf{Cloud:}{ AWS SAA C03 (2023)} \\ \vspace{3pt}
+
+    }}
+ \end{itemize}
+
+
+
+%-------------------------------------------
+\end{document}
